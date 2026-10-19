@@ -1,6 +1,6 @@
 # SPEC 02 — Home como ruta raíz y Biblioteca en `/games`
 
-> **Status:** Aprobado
+> **Status:** Implementado
 > **Depends on:** SPEC 01
 > **Date:** 2026-10-19
 > **Objective:** Implementar la pantalla Home de `references/templates/home-about` como ruta raíz `/`, mover la Biblioteca a `/games` y renombrar las rutas de juego de `/juegos/[id]` a `/games/[id]`.
