@@ -8,7 +8,7 @@ export function generateStaticParams() {
 
 export default async function PlayPage({
   params,
-}: PageProps<"/juegos/[id]/jugar">) {
+}: PageProps<"/games/[id]/jugar">) {
   const { id } = await params;
   const game = GAMES.find((g) => g.id === id);
   if (!game) notFound();
